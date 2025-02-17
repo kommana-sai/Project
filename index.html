@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="quicknote.css">
+    <script>
+            function login(){
+             localStorage.setItem("userid", document.getElementById("userid").value);
+            location.href = "sai.html";
+            }
+    </script>
+</head>
+<body>
+<div class="form">
+    <div class="add"> 
+    <h2>REGISTER FORM</h2>
+    <dl>
+        <dt>name</dt>
+        <dd><input type="text" id="userid" placeholder="Enter Name"></dd>
+        <dt>mobile</dt>
+        <dd><input type="number" placeholder="12xxxxxx9"></dd>
+        <dt>email</dt>
+        <dd><input type="email" placeholder="abc@gmail.com" ></dd>
+        <dt>password</dt>
+        <dd><input type="password" placeholder="password"></dd>
+    </dl>
+         <button onclick="login()" id="btn">REGISTER</button>
+    </div>
+</div>
+    
+</body>
+</html>

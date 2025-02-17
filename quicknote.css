@@ -1,0 +1,41 @@
+.form{
+    
+     background-color: blueviolet;
+     padding: 10px;
+     align-items: center;
+    justify-items: center;
+    align-items: center;
+    justify-items: center;
+    background-size: cover;
+    height: 350px;
+    margin-bottom: 180px;
+
+
+}
+.add{
+    justify-content: center;
+    border: 2px solid green;
+    align-items: center;
+    height: 350px;
+    width: 250px;
+    justify-items: center;
+    
+
+
+    
+}
+#btn{
+     margin-top: 20px;
+}
+
+
+body{
+    align-items: center;
+    justify-items: center;
+    margin-top: 250px;
+    background: url("https://img.freepik.com/free-photo/beautiful-wooden-pathway-going-breathtaking-colorful-trees-forest_181624-5840.jpg?t=st=1739805807~exp=1739809407~hmac=7f70e0ff4289e33bdbbfad9f8657d3683c4fa932ac4db1a0e259e90210dae177&w=996");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    height:100vh;
+    
+}

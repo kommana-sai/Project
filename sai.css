@@ -1,0 +1,70 @@
+body{
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        display: inline;
+
+}
+
+header{
+        display: flex;
+        justify-content: space-between;
+}
+.logo{
+        border: 1px solid gray;
+        border-radius: 40px;
+        height: 40px;
+        width: 40px;
+        cursor: pointer;
+}
+.two nav span{
+
+        margin: 50px;
+}
+#btn{
+        background-color: cyan;
+        color: black;
+        cursor: pointer;
+        border: 1px solid gray;
+        border-radius: 20px 60px;
+        margin-top: 10px;
+        
+      
+}
+.quick{
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 10px;
+        background-color: rgb(107, 191, 227);
+        border: 1px solid black; 
+        border-radius: 12px;
+        padding: 5px;
+        
+        
+}
+.profile{
+        display: flex;
+}
+article{
+        justify-content: center;
+        display: flex;
+        margin-top: 90px;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+}
+section{
+         
+        justify-content: center;
+        margin-top: 150px;
+
+}
+.details{
+          display: flex;
+          justify-content: center;
+          margin-top: 40px;
+          padding: 10px;
+          margin: 10px;
+          cursor: pointer;
+}

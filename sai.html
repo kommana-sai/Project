@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="sai.css">
+    <script>
+             
+            function buttonclick(){
+             localStorage.setItem("btn", document.getElementById("btn").value);
+            location.href = "login.html";
+            }
+
+    </script>
+</head>
+<body background="https://png.pngtree.com/thumb_back/fh260/background/20230526/pngtree-an-office-desk-with-many-items-on-it-image_2634878.jpg">
+   <header>
+    <div class="profile">
+        <img src="https://www.shutterstock.com/image-photo/onwards-upwards-path-success-man-260nw-2455239569.jpg" alt="" class="logo">
+        <span class="quick"> EDUCATE HUB </span>
+    </div>
+    <div class="two">
+    <nav>
+         <span><b>HOME </b> </span>
+         <span><b>CONTACT </b> </span>
+         <span><b>ABOUT </b> </span>
+        
+    </nav>
+    </div>
+    <div>
+        <button onclick="buttonclick()" id="btn">LOGIN</button>
+    </div>
+   </header>
+   <article class="art">
+      <p><pre>                 Education is the most powerful weapon you can use to change the world.<br>
+     Education is the passport to the future, for tomorrow belongs to those who prepare for it today. </pre></p>
+   </article>
+   <section>
+    <div class="details">
+        <select name="" id="selsect">
+            <option value="STUDY">STUDY</option>
+            <option value="Diploma">Diploma</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="M.Tech">M.Tech</option>
+            <option value="MCA">MCA</option>
+            <option value="MBA">MBA</option>
+            <option value="BBA">BBA</option>
+        </select>
+    </div>
+     <div class="details">
+        <select name="" id="selsect">
+
+            <option value="GUIDANCE">GUIDANCE</option>
+            <option value="JAVA">JAVA</option>
+            <option value="C++">C++</option>
+            <option value="PYTHON">PYTHON</option>
+            <option value="REACT">REACT</option>
+            
+        </select>
+    </div>
+      <div class="details">
+        <select name="" id="selsect">
+            <option value="SCHOLAR SHIP">SCHOLAR SHIP</option>
+            <option value="Qualified">Qualified</option>
+            <option value="Non-Qualified">Non-Qualified</option>
+            <option value="Management">Management</option>
+           
+        </select>
+    </div> 
+     <div class="details">
+        <select name="" id="selsect">
+
+            <option value="JOB VACANCY">JOB VACANCY</option>
+            <option value="SOFT ENGINEERING">SOFT ENGINEERING</option>
+            <option value="NON-IT">NON-IT</option>
+            <option value="BPO">BPO</option>
+            <option value="TECHNICAL SUPPORT">TECHNICAL SUPPORT</option>
+            <option value="BUSINESS">BUSINESS</option>
+    
+        </select>
+    </div>
+   
+   </section>
+</body>
+</html>
